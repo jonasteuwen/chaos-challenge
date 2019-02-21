@@ -16,3 +16,10 @@ MAPPING = {
     3: 'left kidney',
     4: 'spleen'
 }`
+
+## What is needed
+- Python 3.6
+- SimpleITK >= 1.2
+- tqdm
+- Pillow
+- numpy
