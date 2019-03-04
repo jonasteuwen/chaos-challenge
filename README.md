@@ -25,7 +25,7 @@ MAPPING = {
 
 ## For CT
 The masks are converted in a `.nrrd` file where 1 is the liver, and 0 the background.
-![CT example](mri_example.png?raw=true "CT Example read with ITK-SNAP")
+![CT example](ct_example.png?raw=true "CT Example read with ITK-SNAP")
 
 
 
