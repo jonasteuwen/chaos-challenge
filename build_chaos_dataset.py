@@ -63,7 +63,7 @@ def get_patients(path):
 def get_masks(gt_images, vol_img, mask_name):
     all_masks = []
     # I need to do this for the CT masks, the seem to be flipped.
-    if mask_name == 'CT':
+    if mask_name == 'liver':
         gt_images = gt_images[::-1]
     gt_arr = np.stack([np.asarray(PIL.Image.open(_)) for _ in gt_images])
     unique_values_mask = np.unique(gt_arr)
